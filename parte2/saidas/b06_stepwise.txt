@@ -1,0 +1,30 @@
+          acao      termo  gl             F              p     r2_aj
+passo                                                               
+1      Entrada   log_area   1  11631.339828   0.000000e+00  0.529872
+2      Entrada     cidade   4    454.165960   0.000000e+00  0.600122
+3      Entrada    mobilia   1   1286.623951  1.222414e-265  0.644442
+4      Entrada  banheiros   1    605.267285  6.355517e-130  0.664122
+5      Entrada    bc_iptu   1    423.476792   3.003365e-92  0.677341
+6      Entrada      andar   1    301.306447   1.503881e-66  0.686473
+7      Entrada      vagas   1     83.845526   6.364032e-20  0.688972
+8      Entrada    bc_cond   1     19.154955   1.217110e-05  0.689519
+9      Entrada       tipo   1     41.808872   1.052032e-10  0.690743
+10     Entrada     animal   1      8.651701   3.274830e-03  0.690972
+Selecionados: ['log_area', 'cidade', 'mobilia', 'banheiros', 'bc_iptu', 'andar', 'vagas', 'bc_cond', 'tipo', 'animal'] | não selecionados: ['quartos']
+   df_resid         ssr  df_diff   ss_diff         F    Pr(>F)
+0   10306.0  374.448590      0.0       NaN       NaN       NaN
+1   10305.0  374.448484      1.0  0.000107  0.002934  0.956801
+             termos     p        R2     R2_aj          AIC          BIC
+Completo       11.0  15.0  0.691362  0.690943 -4908.199872 -4799.572286
+Selecionado    10.0  14.0  0.691362  0.690972 -4910.196933 -4808.811187
+log_area     0.0495
+cidade       0.0377
+mobilia      0.0300
+banheiros    0.0078
+bc_iptu      0.0066
+andar        0.0061
+vagas        0.0026
+bc_cond      0.0018
+tipo         0.0012
+animal       0.0003
+dtype: float64

@@ -1,0 +1,46 @@
+         aluguel  seguro  total
+aluguel    1.000   0.987  0.961
+seguro     0.987   1.000  0.929
+total      0.961   0.929  1.000
+count    10320.0000
+mean         0.0137
+std          0.0015
+min          0.0027
+25%          0.0128
+50%          0.0131
+75%          0.0150
+max          0.0188
+dtype: float64
+cidade
+São Paulo         5711
+Rio de Janeiro    1429
+Belo Horizonte    1205
+Porto Alegre      1153
+Campinas           822
+Name: count, dtype: int64 
+
+tipo
+Apartamento    7950
+Casa           2370
+Name: count, dtype: int64 
+
+animal
+Aceita        8065
+Não aceita    2255
+Name: count, dtype: int64 
+
+mobilia
+Não mobiliado    7809
+Mobiliado        2511
+Name: count, dtype: int64 
+
+condominio   False  True    All
+tipo                           
+Apartamento   7678   272   7950
+Casa           354  2016   2370
+All           8032  2288  10320
+iptu         False  True    All
+tipo                           
+Apartamento   6828  1122   7950
+Casa          2012   358   2370
+All           8840  1480  10320

@@ -1,0 +1,28 @@
+(10692, 13)
+city                        str
+area                    float64
+rooms                   float64
+bathroom                float64
+parking_spaces          float64
+floor                       str
+animal                      str
+furniture                   str
+hoa_(BRL)               float64
+rent_amount_(BRL)       float64
+property_tax_(BRL)      float64
+fire_insurance_(BRL)    float64
+total_(BRL)             float64
+dtype: object
+           city   area  rooms  bathroom  parking_spaces floor     animal      furniture  hoa_(BRL)  rent_amount_(BRL)  property_tax_(BRL)  \
+0     Sao Paulo   70.0    2.0       1.0             1.0     7      acept      furnished     2065.0             3300.0               211.0   
+1     Sao Paulo  320.0    4.0       4.0             0.0    20      acept  not furnished     1200.0             4960.0              1750.0   
+2  Porto Alegre   80.0    1.0       1.0             1.0     6      acept  not furnished     1000.0             2800.0                 0.0   
+3  Porto Alegre   51.0    2.0       1.0             0.0     2      acept  not furnished      270.0             1112.0                22.0   
+4     Sao Paulo   25.0    1.0       1.0             0.0     1  not acept  not furnished        0.0              800.0                25.0   
+
+   fire_insurance_(BRL)  total_(BRL)  
+0                  42.0       5618.0  
+1                  63.0       7973.0  
+2                  41.0       3841.0  
+3                  17.0       1421.0  
+4                  11.0        836.0  

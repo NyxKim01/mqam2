@@ -1,0 +1,53 @@
+cidade[T.Rio de Janeiro]    1.19
+cidade[T.Belo Horizonte]    1.15
+cidade[T.Porto Alegre]      1.16
+cidade[T.Campinas]          1.08
+tipo[T.Casa]                3.72
+mobilia[T.Mobiliado]        1.06
+animal[T.Não aceita]        1.06
+log_area                    3.96
+banheiros                   3.20
+vagas                       2.37
+andar                       1.51
+bc_cond                     3.48
+bc_iptu                     2.00
+dtype: float64
+Número de condição = 227.9
+max D = 0.0051 | D > 4/n: 530 | h > 2p/n: 484 | |rstud| > 3: 56
+            cidade         tipo    area  quartos  banheiros  andar  condominio  aluguel    iptu      cook      alav     rstud
+5186     São Paulo  Apartamento   850.0      5.0        7.0      1     14000.0   4000.0     0.0  0.005074  0.008155 -2.940416
+909       Campinas  Apartamento    75.0      3.0        1.0      1       296.0  12000.0     0.0  0.004378  0.002101  5.402464
+4040  Porto Alegre  Apartamento   900.0      5.0        5.0      4      2700.0   1000.0   542.0  0.004244  0.002619 -4.761427
+8161     São Paulo  Apartamento   717.0      5.0        5.0     16      4300.0   2500.0  5032.0  0.003800  0.002529 -4.585036
+4728     São Paulo         Casa  1600.0      4.0        5.0      0         1.0   6900.0  5000.0  0.003369  0.006224 -2.744946
+R2 sem influentes = 0.7605 | maior mudança = 3.12 EP (bc_cond)
+                           todos  sem_influentes
+Intercept                 2.3111          2.2907
+cidade[T.Rio de Janeiro] -0.0357         -0.0394
+cidade[T.Belo Horizonte] -0.1168         -0.1273
+cidade[T.Porto Alegre]   -0.1451         -0.1448
+cidade[T.Campinas]       -0.2024         -0.2137
+tipo[T.Casa]              0.0547          0.0620
+mobilia[T.Mobiliado]      0.1423          0.1477
+animal[T.Não aceita]      0.0137          0.0135
+log_area                  0.4429          0.4333
+banheiros                 0.0384          0.0385
+vagas                     0.0169          0.0198
+andar                     0.0062          0.0066
+bc_cond                   0.0027          0.0038
+bc_iptu                   0.0087          0.0101
+                          ep_classico   ep_hc3    razao  p_classico   p_hc3
+Intercept                     0.01737  0.01854  1.06717     0.00000  0.0000
+cidade[T.Rio de Janeiro]      0.00593  0.00608  1.02587     0.00000  0.0000
+cidade[T.Belo Horizonte]      0.00627  0.00634  1.01193     0.00000  0.0000
+cidade[T.Porto Alegre]        0.00640  0.00577  0.90181     0.00000  0.0000
+cidade[T.Campinas]            0.00721  0.00668  0.92683     0.00000  0.0000
+tipo[T.Casa]                  0.00860  0.00844  0.98047     0.00000  0.0000
+mobilia[T.Mobiliado]          0.00450  0.00459  1.02051     0.00000  0.0000
+animal[T.Não aceita]          0.00467  0.00470  1.00729     0.00327  0.0035
+log_area                      0.01089  0.01168  1.07241     0.00000  0.0000
+banheiros                     0.00237  0.00252  1.06250     0.00000  0.0000
+vagas                         0.00181  0.00199  1.10060     0.00000  0.0000
+andar                         0.00043  0.00045  1.04236     0.00000  0.0000
+bc_cond                       0.00035  0.00037  1.05446     0.00000  0.0000
+bc_iptu                       0.00059  0.00063  1.07208     0.00000  0.0000

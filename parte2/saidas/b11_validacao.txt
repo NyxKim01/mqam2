@@ -1,0 +1,10 @@
+Escala original: R2 = 0.5902 | R2 ajustado = 0.5897 | assimetria = 1.345 | curtose = 12.280
+              Final (log10)  Sem transformações
+R2_log               0.6906                 NaN
+RMSE_log             0.1907                 NaN
+R2_reais             0.5112              0.5868
+RMSE_reais        2399.1595           2205.7358
+EAM_reais         1458.2350           1411.8371
+EPAM_mediano        31.2512             31.2885
+negativas            0.0000              0.0000
+Fator multiplicativo típico 10^S = 1.551

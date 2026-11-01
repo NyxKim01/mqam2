@@ -1,0 +1,10 @@
+         grupo                            teste  estatistica             p
+0  Normalidade                     Shapiro-Wilk     0.994796  7.266813e-19
+1  Normalidade  Kolmogorov-Smirnov (Lilliefors)     0.021160  1.000000e-03
+2  Normalidade                 Anderson-Darling     9.031500  6.708507e-22
+3  Normalidade                      Jarque-Bera   270.282593  2.036482e-59
+4  Normalidade     D'Agostino-Pearson (Omnibus)   159.096692  2.835256e-35
+5    Variância          Breusch-Pagan (Koenker)   216.281204  6.099575e-39
+6    Variância       Goldfeld-Quandt (preditos)     1.563394  3.237026e-42
+7    Variância         Brown-Forsythe (cidades)    15.817634  6.517125e-13
+Durbin-Watson (ordem do arquivo) = 2.036
